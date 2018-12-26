@@ -36,10 +36,12 @@ public class DynamicFactorial {
     *Function that return an ArrayList of the cache.
     *
     */
+    
     public static List<Integer> getCacheMemory(){
         return cacheMemory;
     }
-        public static void main(String[] args) {
+    // Test the program in the main method
+    public static void main(String[] args) {
         System.out.println("The factorial of 5 is: "+computeFactorial(5));//Test case 1
         System.out.println("The values stored in the cache are "+ getCacheMemory());//Test case cache 1
         System.out.println("The factorial of 8 is: "+computeFactorial(8));//Test case 2
